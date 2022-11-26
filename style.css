@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1246px;
+  padding: 0 1.5px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #4B4AEF;
+}
+
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 91px;
+}
+
+nav ul li a {
+  color: #fff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 126.9%;
+}
+
+ul {
+  display: flex;
+  gap: 40px;
+}
+
+
+.area-login {
+  display: flex;
+  gap: 44px;
+  align-items: center;
+}
+
+.area-login a {
+  color: #fff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 126.9%;
+}
+
+.area-login button {
+  background: #FFCA1D;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 126.9%;
+  border-radius: 10px;
+  padding: 15px 52px;
+}
+
+.s-hero {
+  background-color: #4B4AEF;
+}
+
+.s-hero .wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 144px 0 153px;
+}
+
+.s-hero span {
+  color: #606060;
+  background-color: white;
+  padding: 11px 16px;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160.4%;
+}
+
+.s-hero h1 {
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 126.9%;
+  color: white;
+  width: 628px;
+  padding: 46px 0 18px;
+}
+
+.s-hero p {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 160.4%;
+  color: white;
+  padding-bottom: 36px;
+
+}
+
+.s-hero button {
+  background: #FFCA1D;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 126.9%;
+  border-radius: 10px;
+  padding: 15px 52px;
+}
+
+.area-image {
+  width: 832.61px;
+}
+
+.area-image img {
+  width: 115%;
+}
